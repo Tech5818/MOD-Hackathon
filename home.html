@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="popup_bg"></div>
+    <header>
+        <div class="header_guide">
+            <a href="#"><img src="./img/Frame 2.svg" alt="Logo" id="logo"></a>
+            <dialog>
+                <h1>웹사이트 기타 정보</h1>
+                <p>이 웹사이트는</p>
+                <p>매년 버려지는 반려견들에 대한</p>
+                <p>정보 및 캠페인 등이</p>
+                <p>게시된 사이트 입니다.</p>
+                <br>
+                <p>해당 사이트에서 사용된</p>
+                <p>강아지 관련 이미지들은</p>
+                <p>저작권이 허락된 이미지들 입니다.</p>
+                <button id="popup_x_btn">
+                    <span>[X] 닫기</span>
+                </button>
+            </dialog>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">유기견 설명</a>
+                        <ul>
+                            <li><a href="#explanation">유기견이란</a></li>
+                            <li><a href="#situation">유기견의 상황</a></li>
+                            <li><a href="#problems">사회적문제</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">유기견 분양</a>
+                        <ul>
+                            <li><a href="https://dogmaru.co.kr/" target="_blank">도그마루</a></li>
+                            <li><a href="https://victoriapetshelter.co.kr/laonfree" target="_blank">유기견무료분양</a></li>
+                            <li><a href="http://www.anajuda.com/main/index" target="_blank">안다</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">유기견 캠페인</a>
+                        <ul>
+                            <li><a href="http://forust.kr/19" target="_blank">포러스트</a></li>
+                            <li><a href="https://togetheron.net/campaign_pet" target="_blank">함께온</a></li>
+                            <li><a href="https://www.bankit.kr/support/fundView/960" target="_blank">뱅크잇</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div id="popup_btn"><a href="#">기타</a></div>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="drops"></div>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <div class="banner" id="explanation">
+            <div class="banner_guide">
+                <div class="banner_box_1">
+                    <div class="banner_box_1_value">
+                        <h1>유기견.</h1>
+                        <p>주인의 실수, 혹은 의도적인 목적으로 인하여 버려진 이국적인 동물, 혹은 반려동물</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./img/banner.jpg" alt="banner" class="banner_img">
+        </div>
+        <div class="flip_cards" id="situation">
+            <div class="flip_cards_guide">
+                <div class="flip_1">  
+                    <div class="card">
+                    <div class="front">
+                        <p>한국의</p>
+                        <p>한 해 유기견수</p>
+                    </div>
+                    <div class="back">
+                        <p>2021년 기준</p>
+                        <p>약 5만마리</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="flip_2">  
+                    <div class="card">
+                    <div class="front">
+                        <p>한국의 한 해</p>
+                        <p>안락사하는</p>
+                        <p>유기견의 수</p>
+                    </div>
+                    <div class="back">
+                        <p>연평균</p>
+                        <p>2만마리</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="flip_3">  
+                    <div class="card">
+                    <div class="front">
+                        <p>분양률</p>
+                    </div>
+                    <div class="back">
+                        <p>약 25%</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="problem" id="problems">
+            <div class="problem_img">
+                <img src="./img/problem.jpg" alt="" id="problem_img">
+                <div class="again">Again</div>
+            </div>
+            <div class="problem_box">
+                <h1>유기견의 사회적인 문제</h1>
+                <div class="problem_value">
+                    <div class="problem_value_menu">
+                        <div class="problem_icon" id="problem_icon_1">설명 보기</div>
+                        <div class="problem_icon" id="problem_icon_2">2</div>
+                        <div class="problem_icon" id="problem_icon_3">3</div>
+                    </div>
+                    <div class="problem_value_menu_value" id="problem_value">
+                        <div class="problem_icon_value" id="problem_icon_value_1">
+                            <p>반려견의 수가 증가 함에 따라 버려지는</p>
+                            <p>유기견의 수 또한 증가하면서 많은수의</p>
+                            <p>유기견들을 관리하지 못하여 물림사고가</p>
+                            <p>지속적으로 나타난다</p>
+                        </div>
+                        <div class="problem_icon_value" id="problem_icon_value_2">
+                            <p>유기견의 수가 지자체에서 도저히 감당할 수</p>
+                            <p>없는 지경까지 가자 유기견의 자연사 방치등</p>
+                            <p>동물학대의 사례가 나오고 있다.</p>
+                        </div>
+                        <div class="problem_icon_value" id="problem_icon_value_3">
+                            <p>예방접종이 잘 되고 좋은 환경에서 사랑을 받으며</p>
+                            <p>자란 일반 애완동물과는 달리 유기견들은 다양한</p>
+                            <p>질병들에 그대로 노출되어 있다.이에따라 입양에</p>
+                            <p>약영향을 줘 낮은 입양률이 더 떨어진다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_guide">
+            <div class="copyright">
+                <p>© 2023 All Rights Reserved.</p>
+                <br>
+                <p>만든이: 신권호, 정현우</p>
+                <p>소속: 서울디지텍고등학교</p>
+                <p>메일: 20230306@sdh.hs.kr, 20230315@sdh.hs.kr</p>
+                <p>동아리: MOD(Master-of-WebDesign,WebDeveloment)</p>
+                <p>전화번호: 02-798-3641(서울디지텍고등학교)</p>
+            </div>
+            <div class="footer_logo">
+                <a href="https://sdh.sen.hs.kr/index.do" target="_blank"><img src="./img/sdh_logo.jpg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./js/index.js">
+</script>
+</html>
